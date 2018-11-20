@@ -9,7 +9,7 @@ function deleteFromObjectByKey(object, key) {
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-  return object.unshift(key: value)
+  return object[key] = value
 }
 
 /*destructivelyDeleteFromObjectByKey(object, key)*/
