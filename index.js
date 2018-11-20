@@ -5,6 +5,6 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 
 function deleteFromObjectByKey(object, key) {
-  return 
+  return delete 
 }
 
