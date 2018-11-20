@@ -8,6 +8,8 @@ function deleteFromObjectByKey(object, key) {
   return delete object.key
 }
 
-destructivelyUpdateObjectWithKeyAndValue(object, key, value)
+function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
+  return object.push(key, value)
+}
 
-
+/*destructivelyDeleteFromObjectByKey(object, key)*/
